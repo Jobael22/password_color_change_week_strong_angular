@@ -1,0 +1,33 @@
+.mb-5{
+    margin-bottom: 5px;
+}
+#password-strength{
+    height: 5px;
+    width: 100%;
+    display: block;
+    width: 178px;
+    background-color: bisque;
+    margin-top: 10px;
+}
+
+#password-strength span {
+    display: block;
+    height: 5px;
+    border-radius: 2px;
+    transition: all 500ms ease;
+}
+
+.strength-1 span{
+    background-color: red;
+    width: 10%;
+}
+
+.strength-2 span{
+    background-color: rgb(156, 73, 73);
+    width: 50%;
+}
+
+.strength-3 span{
+    background-color: green;
+    width: 100%;
+}

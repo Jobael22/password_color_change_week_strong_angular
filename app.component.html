@@ -1,0 +1,6 @@
+<div class="container">
+    <label for="">Type Password</label><br>
+    <input type="password" class="mt-5" #pwStrength = "strengthValue" appPasswordStrength>
+    <div *ngIf="pwStrength.strengthValue" id="password-strength" class="strength-{{pwStrength.strengthValue}}"><span></span></div>
+    
+</div>
